@@ -1,0 +1,191 @@
+    1  which git
+    2  pwd
+    3  git clone https://github.com/hgarc014/git-game.git
+    4  ls
+    5  cd git-game/
+    6  ls
+    7  vi README.md 
+    8  git status
+    9  git log
+   10  ls -a
+   11  git branch
+   12  git branch -a
+   13  git branch
+   14  git branch -a
+   15  git --help
+   16  git branch feature
+   17  git branch
+   18  git checkout feature 
+   19  ls
+   20  git branch
+   21  git checkout master 
+   22  cat README.md 
+   23  git log
+   24  git checkout 7c8c
+   25  git checkout master 
+   26  ls
+   27  cat README.md 
+   28  git log
+   29  git checkout 640273807f9bac8af03575f82b788663d4b99927
+   30  ls
+   31  cat README.md 
+   32  git branch
+   33  git log
+   34  git branch -a
+   35  git status
+   36  git checkout master
+   37  git status
+   38  git fetch origin bug:bug 
+   39  git branch
+   40  git checkout bug 
+   41  ls
+   42  cat README.md 
+   43  git diff cool.cpp
+   44  git log cool.cpp
+   45  git checkout origin/LinusTorvalds2014 
+   46  git status
+   47  git log
+   48  ls
+   49  cat README.md 
+   50  cat .gitignore 
+   51  git branch -a
+   52  git checkout origin/array 
+   53  ls
+   54  cat README.md 
+   55  git checkout origin/map
+   56  cat README.md 
+   57  git checkout origin/vector 
+   58  cat README.md 
+   59  git checkout origin/tree
+   60  ls
+   61  cat README.md 
+   62  ./outputclue.sh 
+   63  ./outputclue.sh nextclue_input.cpp 
+   64  git checkout origin/code4life 
+   65  git checkout tree
+   66  git status
+   67  git branch
+   68  git fetch origin code4life:code4life 
+   69  git branch
+   70  git merge code4life tree 
+   71  git diff code4life tree 
+   72  git checkout code4life 
+   73  ls
+   74  cat nextclue_input.cpp 
+   75  git branch
+   76  git merge code4life 
+   77  git diff tree code4life 
+   78  cat nextclue_input.cpp 
+   79  cat R
+   80  cat README.md 
+   81  ./outputclue.sh nextclue_input.cpp 
+   82  git status
+   83  cat nextclue_input.cpp 
+   84  vi nextclue_input.cpp 
+   85  git add
+   86  git add .
+   87  git commit -m "resolved merge conflict"
+   88  git merge tree code4life 
+   89  ./outputclue.sh nextclue_input.cpp 
+   90  git checkout origin/mouse 
+   91  cat README.md 
+   92  ls
+   93  git diff remember tree remember
+   94  git branch
+   95  git checkout remember
+   96  ls
+   97  git fetch origin mouse:mouse 
+   98  git branch
+   99  cat README.md 
+  100  git diff mouse tree remember
+  101  cat README.md 
+  102  git diff mouse tree remember
+  103  cat remember 
+  104  git checkout tree 
+  105  ls
+  106  git branch
+  107  ls
+  108  git checkout code4life 
+  109  ls
+  110  git checkout bug
+  111  ls
+  112  git diff bug mouse remember
+  113  git fetch origin Henry:Henry 
+  114  cat README.md 
+  115  git diff mouse code4life remember
+  116  git diff bug mouse remember
+  117  git branch -a
+  118  git checkout Henry 
+  119  ls
+  120  cat README.md 
+  121  git checkout master 
+  122  git pull --rebase https://help.github.com/articles/configuring-a-remote-for-a-fork/
+  123  git pull origin master
+  124  git pull "https://help.github.com/articles/configuring-a-remote-for-a-fork/"
+  125  git pull "https://github.com/drami025/git-game"
+  126  cat README.md 
+  127  ls
+  128  git branch
+  129  git branch -a
+  130  git pull origin SteveJobs2014 
+  131  git branch
+  132  git checkout SteveJobs2014 
+  133  git branch
+  134  cat README.md 
+  135  cd ..
+  136  ls
+  137  git clone https://github.com/muellerm-95/module-intro-to-python.git
+  138  ls
+  139  cd module-intro-to-python/
+  140  ls
+  141  jupyter notebook
+  142  wget https://get.docker.com/
+  143  mv index.html get-docker
+  144  chmod +x get-docker 
+  145  ./get-docker 
+  146  mv get-docker ../get-docker.sh
+  147  cd ..
+  148  chmod +x get-docker.sh 
+  149  ./get-docker.sh 
+  150  sudo usermod -aG docker ubuntu
+  151  ls
+  152  docker pull jupyter/scipy-notebook
+  153  docker ps
+  154  docker run -v $PWD:/home/jovyan/work
+  155  docker run -v $PWD:/home/jovyan/work --name notebook -p 80:8888 jupyter/scipy-notebook
+  156  docker rm 94c929895d9f07b8968459c605e6e7dd802cb1a4dcac4fa34d1bdfac30de7497
+  157  docker run -v $PWD:/home/jovyan/work --name notebook -p 80:8888 jupyter/scipy-notebook
+  158  docker ps
+  159  docker stop notebook
+  160  cd module-intro-to-python
+  161  git status
+  162  git commit intro_python.ipynb more_python.ipynb 
+  163  git push origin master 
+  164  docker ps -a
+  165  docker stop notebook
+  166  docker ps -a
+  167  docker stop notebook
+  168  docker ps
+  169  docker ps -a
+  170  docker start notebook
+  171  docker ps -a
+  172  docker run -v $PWD:/home/jovyan/work --name notebook -p 80:8888 jupyter/scipy-notebook
+  173  docker restart notebook
+  174  docker ps
+  175  docker stop notebook
+  176  docker ps
+  177  docker ps -a
+  178  docker restart notebook
+  179  docker logs notebook
+  180  history
+  181  history > commands.txt
+
+EXAM:
+fork,
+clone, 
+work in it, 
+push, 
+pull reques,
+pull request: 
+on github, open my repo, choose create pull request, give title and description, choose repo to push to, confirm
+
